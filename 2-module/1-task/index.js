@@ -1,11 +1,3 @@
-let salaries = {
-  John: Infinity,
-  Ann: 1600,
-  Pete: 1300,
-  month: 'December',
-  currency: 'USD',
-  isPayed: false
-}
 function sumSalary(salaries) {
   let sum = 0
   for (const key in salaries) {

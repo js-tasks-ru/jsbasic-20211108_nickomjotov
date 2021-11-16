@@ -3,9 +3,5 @@ function isEmpty(obj) {
   for (const key in obj) {
     count += 1
   }
-  if (count === 0) {
-    return true
-  } else {
-    return false
-  }
+  return count === 0;
 }
