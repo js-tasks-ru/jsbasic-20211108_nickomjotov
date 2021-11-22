@@ -1,9 +1,9 @@
 function getMinMax(inputData) {
-  let a = inputData.split(" ")
+  let inputDataString = inputData.split(" ")
     .filter(el => +el)
     .map(el=>+el)
   return {
-    min: Math.min(...a),
-    max: Math.max(...a)
+    min: Math.min(...inputDataString),
+    max: Math.max(...inputDataString)
   }
 }

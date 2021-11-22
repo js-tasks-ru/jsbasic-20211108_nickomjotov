@@ -1,1 +1,1 @@
-namify = (users) => users.map(user => user.name)
+let namify = (users) => users.map(user => user.name)
