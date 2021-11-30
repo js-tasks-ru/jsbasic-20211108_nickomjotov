@@ -1,6 +1,6 @@
 function makeFriendsList(friends) {
   let ul = document.createElement('ul')
-  document.body.append(ul)
+  document.body.prepend(ul)
   for (let i = 0; i < friends.length; i++) {
     let li = document.createElement(`li`)
     li.textContent = `${friends[i].firstName} ${friends[i].lastName}`
