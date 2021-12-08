@@ -1,12 +1,7 @@
 function toggleText() {
   let hideText = document.querySelector("button")
+  let text = document.getElementById("text")
   hideText.onclick = function () {
-    if (document.getElementById("text").hidden === true) {
-      document.getElementById("text").hidden = false;
-    } else {
-      document.getElementById("text").hidden = true;
-    }
+    text.hidden = text.hidden !== true;
   }
 }
-
-
